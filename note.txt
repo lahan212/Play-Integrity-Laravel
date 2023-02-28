@@ -1,0 +1,21 @@
+
+    Build Gradle App
+    
+    - implementation 'com.google.android.play:integrity:1.1.0'
+    
+    
+    Google Api Console
+    
+    - create credentials google service account
+    - select tab key 
+    - create key
+    - download file key 
+    - save key to storage project laravel
+    
+    Google Play Console
+    
+    - select project
+    - select app integrity
+    - select project from google cloud console
+    - select response
+    
