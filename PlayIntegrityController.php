@@ -13,7 +13,7 @@ class PlayIntegrityController extends Controller
     public function playIntegrity(Request $request)
     {
         $auth = Auth::user();
-        $json = storage_path("g-service/lahane-project-97211-9bd92f20caf5.json");
+        $json = storage_path("g-service/file.json");
         $client = new Client();
         $client->setAuthConfig($json);
         $client->addScope(PlayIntegrity::PLAYINTEGRITY);
